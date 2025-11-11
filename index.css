@@ -1,0 +1,53 @@
+nav{
+    background-color: rgb(58, 58, 58);
+}
+
+nav ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center; 
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    padding: 8px;
+    text-align: center;
+}
+
+nav li:hover a{
+    color: black;
+    cursor: pointer;
+}
+
+nav li:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 8px; 
+}
+
+article {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.cikk{
+    display: grid;
+    grid-template-rows: auto 1fr auto ;
+}
+
+#cikk1 {order: 2;}
+#cikk2 {order: 3;}
+#cikk3 {order: 1;}
+#cikk4 {order: 4;}
+#cikk5 {order: 5;}
